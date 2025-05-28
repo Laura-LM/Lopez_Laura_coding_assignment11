@@ -1,0 +1,6 @@
+services:
+  app:
+    container_name: lopez_laura_site
+    image: lopez_laura_site
+    build: 
+      target: production

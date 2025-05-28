@@ -1,0 +1,11 @@
+services: 
+  app:
+    container_name: lopez_laura_coding_assignment11
+    image: lopez_laura_coding_assignment11
+    build: 
+      target: development
+    volumes: 
+      - ./src:/app/src
+    ports:
+      - 7775:7775
+    
