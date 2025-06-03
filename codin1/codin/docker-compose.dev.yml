@@ -4,8 +4,8 @@ services:
     image: lopez_laura_coding_assignment11
     build: 
       target: development
-    volumes: 
-      - ./src:/app/src
+    volumes:
+      - ./:/lopez_laura_site
     ports:
       - 7775:7775
     

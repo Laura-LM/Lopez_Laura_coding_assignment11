@@ -1,6 +1,6 @@
 FROM node:20-alpine AS development
 ENV NODE_ENV=development
-WORKDIR /app    
+WORKDIR /lopez_laura_site    
 COPY package.json ./
 COPY yarn.lock ./
 RUN yarn install 
